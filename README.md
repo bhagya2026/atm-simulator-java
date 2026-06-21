@@ -1,44 +1,73 @@
-# ATM Simulator in Java
+# 🏧 ATM Simulator in Java
 
-## Overview
+A simple and interactive **ATM Simulator** built using **Java**. This console-based application allows users to perform basic banking operations such as checking balance, depositing money, and withdrawing money through a menu-driven interface.
 
-ATM Simulator is a simple Java console-based application that simulates basic ATM operations. Users can check their account balance, deposit money, withdraw money, and exit the application through a menu-driven interface.
+---
 
-## Features
+## 🚀 About the Project
 
-* Balance Inquiry
-* Deposit Money
-* Withdraw Money
-* Input Validation
-* Menu-Driven Interface
-* Continuous Execution Until Exit
+The ATM Simulator is designed to demonstrate fundamental Java programming concepts while simulating real-world ATM operations. Users can interact with the system through a simple command-line interface and perform transactions securely.
 
-## Technologies Used
+---
 
-* Java
-* Scanner Class
-* VS Code / NetBeans
+## ✨ Features
 
-## Project Structure
+✅ Balance Inquiry
 
-ATMSimulator.java
+✅ Deposit Money
 
-## How to Run
+✅ Withdraw Money
 
-1. Open the project folder in VS Code.
+✅ Input Validation
 
-2. Open the terminal.
+✅ Menu-Driven Interface
 
-3. Compile the program:
+✅ Real-Time Balance Updates
 
-   javac ATMSimulator.java
+✅ Continuous Execution Until Exit
 
-4. Run the program:
+---
 
-   java ATMSimulator
+## 🛠️ Technologies Used
 
-## Sample Output
+| Technology | Purpose |
+|------------|----------|
+| Java | Core Programming Language |
+| Scanner Class | User Input Handling |
+| VS Code / NetBeans | Development Environment |
 
+---
+
+## 📂 Project Structure
+
+```text
+ATM-Simulator/
+│
+├── ATMSimulator.java
+└── README.md
+```
+
+---
+
+## ▶️ How to Run
+
+### Step 1: Compile the Program
+
+```bash
+javac ATMSimulator.java
+```
+
+### Step 2: Run the Program
+
+```bash
+java ATMSimulator
+```
+
+---
+
+## 💻 Sample Output
+
+```text
 ----- ATM MENU -----
 
 1. Balance Inquiry
@@ -49,23 +78,63 @@ ATMSimulator.java
 Enter your choice: 1
 
 Current Balance: Rs. 5000.0
+```
 
-## Learning Outcomes
+---
+
+## 📋 Available Operations
+
+### 💰 Balance Inquiry
+View the current account balance.
+
+### ➕ Deposit Money
+Add funds to the account balance.
+
+### ➖ Withdraw Money
+Withdraw money if sufficient balance is available.
+
+### 🚪 Exit
+Safely terminate the ATM session.
+
+---
+
+## 🎓 Learning Outcomes
 
 This project demonstrates:
 
-* Java Basics
-* Variables and Data Types
-* Conditional Statements
-* Loops
-* Switch Case
-* User Input Handling
-* Simple Banking Operations
+- Java Basics
+- Variables and Data Types
+- Conditional Statements
+- Loops
+- Switch Statements
+- User Input Handling
+- Menu-Driven Programming
+- Simple Banking Operations
 
-## Author
+---
 
-Bhagyashree B
+## 🔮 Future Enhancements
 
-## License
+- PIN Authentication
+- Multiple User Accounts
+- Transaction History
+- Mini Statement
+- Fund Transfer
+- Graphical User Interface (GUI)
+- Database Integration
+
+---
+
+## 👩‍💻 Author
+
+**Bhagyashree B**
+
+GitHub: https://github.com/bhagya2026
+
+---
+
+## 📄 License
 
 This project is created for educational and learning purposes.
+
+⭐ If you found this project helpful, consider giving it a star on GitHub!
